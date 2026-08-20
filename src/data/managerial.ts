@@ -24,7 +24,7 @@ export const course = {
         },
         {
           "title": "Cost Types and Behavior Problem",
-          "url": "https://screenpal.com/content/video/cOjYcknvs6x",
+          "url": "https://go.screenpal.com/watch/cOjYcknvs6x",
           "type": "video"
         }
       ]
@@ -35,7 +35,7 @@ export const course = {
       "items": [
         {
           "title": "Job Costing",
-          "url": "https://screenpal.com/watch/cOjq0wnvse8",
+          "url": "https://go.screenpal.com/watch/cOjq0wnvse8",
           "type": "video"
         },
         {
@@ -55,7 +55,7 @@ export const course = {
         },
         {
           "title": "MOH Applied Example Problem",
-          "url": "https://screenpal.com/content/video/cOjYcAnvs6Y",
+          "url": "https://go.screenpal.com/watch/cOjYcAnvs6Y",
           "type": "video"
         }
       ]
