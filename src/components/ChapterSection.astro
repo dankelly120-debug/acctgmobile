@@ -8,9 +8,11 @@ const { number, title, items } = Astro.props;
 const anchor = `chapter-${number.replace(/[^a-zA-Z0-9]+/g, '-')}`;
 const concepts: Lesson[] = [];
 const practices: Lesson[] = [];
+const excelDemos: Lesson[] = [];
 const extras: Link[] = [];
 
-const isPracticeVideo = (name: string) => /problem|exercise|example|by hand|in excel|excel focus|homework|starcups|hoodies|sales mix|cost flow|amortization|series/i.test(name);
+const isExcelVideo = (name: string) => /excel|sumif/i.test(name);
+const isPracticeVideo = (name: string) => /problem|exercise|example|by hand|homework|starcups|hoodies|sales mix|cost flow|amortization|series/i.test(name);
 const cleanTitle = (name: string) => name
   .replace(/^problem:\s*/i, '')
   .replace(/^problem\s*/i, '')
@@ -21,7 +23,9 @@ const fileRole = (name: string): Link['role'] => /solution|answer/i.test(name) ?
 
 for (const item of items) {
   if (item.type === 'video') {
-    if (/^video\s*\d+/i.test(item.title) && practices.length) {
+    if (isExcelVideo(item.title)) {
+      excelDemos.push({ title: cleanTitle(item.title), links: [{ ...item }] });
+    } else if (/^video\s*\d+/i.test(item.title) && practices.length) {
       practices[practices.length - 1].links.push({ ...item, role: 'walkthrough' });
     } else if (isPracticeVideo(item.title)) {
       practices.push({ title: cleanTitle(item.title), links: [{ ...item, role: 'walkthrough' }] });
@@ -55,6 +59,15 @@ for (const item of items) {
       <h3 class="group-title">2. Practice and check your work</h3>
       <div class="card-grid">
         {practices.map((lesson, index) => <LessonCard id={`chapter-${number}-practice-${index + 1}`} kind="practice" practiceNumber={index + 1} title={lesson.title} links={lesson.links} />)}
+      </div>
+    </div>
+  )}
+
+  {excelDemos.length > 0 && (
+    <div class="lesson-group">
+      <h3 class="group-title">3. Excel demonstrations</h3>
+      <div class="card-grid">
+        {excelDemos.map((lesson, index) => <LessonCard id={`chapter-${number}-excel-${index + 1}`} kind="excel" title={lesson.title} links={lesson.links} />)}
       </div>
     </div>
   )}

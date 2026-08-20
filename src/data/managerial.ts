@@ -18,8 +18,8 @@ export const course = {
           "type": "video"
         },
         {
-          "title": "Cost Classification Problem",
-          "url": "https://youtu.be/ut2GzUqPbxU",
+          "title": "SumIf Excel Demonstration",
+          "url": "https://www.youtube.com/watch?reload=9&v=5ZPO_cUczeE&feature=youtu.be",
           "type": "video"
         },
         {
@@ -50,7 +50,7 @@ export const course = {
         },
         {
           "title": "Individual job costing problem from homework",
-          "url": "https://youtu.be/wvp70SWkvys",
+          "url": "https://go.screenpal.com/watch/cOjYlynvMi2",
           "type": "video"
         },
         {
@@ -66,12 +66,12 @@ export const course = {
       "items": [
         {
           "title": "Process Costing Basics",
-          "url": "https://youtu.be/utTFQNciOBE",
+          "url": "https://go.screenpal.com/watch/cOjY20nvMrB",
           "type": "video"
         },
         {
           "title": "Process Costing problem",
-          "url": "https://www.youtube.com/watch?v=6ljVGJa_T2M&t=25s",
+          "url": "https://go.screenpal.com/watch/cOjY2EnvMZt",
           "type": "video"
         },
         {
@@ -80,8 +80,8 @@ export const course = {
           "type": "video"
         },
         {
-          "title": "Process Costing with Excel focus",
-          "url": "https://www.youtube.com/watch?v=skzc4_blBJA",
+          "title": "Process Costing Excel Demonstration",
+          "url": "https://go.screenpal.com/watch/cOjY2dnvMTb",
           "type": "video"
         }
       ]
