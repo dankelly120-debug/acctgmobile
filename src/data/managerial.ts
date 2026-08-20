@@ -9,12 +9,12 @@ export const course = {
       "items": [
         {
           "title": "Introduction to Managerial Accounting",
-          "url": "https://youtu.be/KM1rmI8A5dY",
+          "url": "https://go.screenpal.com/watch/cOjD0CnvE63?redirect=true",
           "type": "video"
         },
         {
           "title": "Cost Classification",
-          "url": "https://youtu.be/MOgXJRdZPtA",
+          "url": "https://go.screenpal.com/watch/cOjbcVnvEIY?redirect=true",
           "type": "video"
         },
         {
@@ -24,7 +24,7 @@ export const course = {
         },
         {
           "title": "Cost Types and Behavior Problem",
-          "url": "https://youtu.be/QE74n_9W7X0",
+          "url": "https://screenpal.com/content/video/cOjYcknvs6x",
           "type": "video"
         }
       ]
@@ -35,22 +35,17 @@ export const course = {
       "items": [
         {
           "title": "Job Costing",
-          "url": "https://youtu.be/DX8YGDs7S4o",
+          "url": "https://screenpal.com/watch/cOjq0wnvse8",
           "type": "video"
         },
         {
           "title": "COGM Statement",
-          "url": "https://youtu.be/gkCe0921VqU",
-          "type": "video"
-        },
-        {
-          "title": "Job Costing Summary",
-          "url": "https://youtu.be/M0IlKciTK_4",
+          "url": "https://go.screenpal.com/watch/cOjq0Gnvshj",
           "type": "video"
         },
         {
           "title": "Job Costing Cost Flow",
-          "url": "https://youtu.be/pmMDAJX2CH4",
+          "url": "https://go.screenpal.com/watch/cOjq0Knvsh4",
           "type": "video"
         },
         {
@@ -60,7 +55,7 @@ export const course = {
         },
         {
           "title": "MOH Applied Example Problem",
-          "url": "https://youtu.be/ju-jk9KSNek",
+          "url": "https://screenpal.com/content/video/cOjYcAnvs6Y",
           "type": "video"
         }
       ]
