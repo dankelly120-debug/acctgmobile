@@ -9,12 +9,12 @@ export const course = {
       "items": [
         {
           "title": "Financial Accounting",
-          "url": "https://youtu.be/LeU1sN-DRW8",
+          "url": "https://go.screenpal.com/watch/cOjrl4nvNzo",
           "type": "video"
         },
         {
           "title": "Problem: Basic Financial Statements",
-          "url": "https://youtu.be/3zHMTMxKLTI",
+          "url": "https://go.screenpal.com/watch/cOjrbnnv86z",
           "type": "video"
         }
       ]
@@ -25,22 +25,22 @@ export const course = {
       "items": [
         {
           "title": "Debits and Credits",
-          "url": "https://youtu.be/IbSEw6DBd-c",
+          "url": "https://go.screenpal.com/watch/cOjrDPnv8QC",
           "type": "video"
         },
         {
           "title": "The Balance Sheet",
-          "url": "https://youtu.be/GKKCpdIYrN0",
+          "url": "https://go.screenpal.com/watch/cOjrbFnv8Ib",
           "type": "video"
         },
         {
           "title": "Problem: Journal Entries and Balance Sheet - New Company",
-          "url": "https://youtu.be/EMiufdaLgcA",
+          "url": "https://go.screenpal.com/watch/cOjrbjnv8Xv",
           "type": "video"
         },
         {
           "title": "Problem: Journal Entries, Trial Balance, and Balance Sheet - Established Company",
-          "url": "https://youtu.be/PzWzChiXOOs",
+          "url": "https://go.screenpal.com/watch/cOjrqOnv8xY",
           "type": "video"
         },
         {
@@ -61,12 +61,12 @@ export const course = {
       "items": [
         {
           "title": "The Income Statement",
-          "url": "https://youtu.be/9t7nFRnw9s0",
+          "url": "https://go.screenpal.com/watch/cOjrbInv8lw",
           "type": "video"
         },
         {
           "title": "Problem: Journal Entries and Income Statement",
-          "url": "https://youtu.be/fxQCmB5HPyM",
+          "url": "https://go.screenpal.com/watch/cOjrqrnv8wg",
           "type": "video"
         },
         {
@@ -81,7 +81,7 @@ export const course = {
         },
         {
           "title": "Problem: Exercise 3-13 from textbook",
-          "url": "https://www.youtube.com/watch?v=Aai2hYnNhDU",
+          "url": "https://go.screenpal.com/watch/cOjrqXnv8vQ",
           "type": "video"
         },
         {
