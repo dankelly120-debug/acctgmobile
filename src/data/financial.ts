@@ -97,17 +97,17 @@ export const course = {
       "items": [
         {
           "title": "Adjusting Journal Entries",
-          "url": "https://www.youtube.com/watch?v=VEri7oDPxnE",
+          "url": "https://go.screenpal.com/watch/cOjuqmnwXlT",
           "type": "video"
         },
         {
           "title": "The Closing Process",
-          "url": "https://youtu.be/W_DCMfrbkFw",
+          "url": "https://go.screenpal.com/watch/cOjuqKnwXlL",
           "type": "video"
         },
         {
           "title": "Problem: Adjusting Journal Entries",
-          "url": "https://www.youtube.com/watch?v=c9ECVf32Vu0",
+          "url": "https://go.screenpal.com/watch/cOjuqsnwXII",
           "type": "video"
         },
         {
@@ -122,7 +122,7 @@ export const course = {
         },
         {
           "title": "Problem: Financial Statements, Closing Entries, and Post-closing Trial Balance",
-          "url": "https://youtu.be/fr9FpmVHAYk",
+          "url": "https://go.screenpal.com/watch/cOjuqNnwXIy",
           "type": "video"
         },
         {
