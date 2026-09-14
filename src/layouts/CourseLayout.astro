@@ -1,6 +1,9 @@
 ---
 import ChapterSection from '../components/ChapterSection.astro';
-interface Course { code: string; name: string; description: string; chapters: readonly { number: string; title: string; items: readonly { title: string; url: string; type: 'video'|'file'|'tool'; label?: string }[] }[]; }
+type LessonKind = 'concept' | 'practice' | 'excel';
+type LinkRole = 'problem' | 'solution' | 'walkthrough' | 'resource';
+interface CourseItem { title: string; url: string; type: 'video'|'file'|'tool'; label?: string; kind?: LessonKind; role?: LinkRole; lessonTitle?: string; }
+interface Course { code: string; name: string; description: string; chapters: readonly { number: string; title: string; items: readonly CourseItem[] }[]; }
 const { course } = Astro.props as { course: Course };
 ---
 <!doctype html>

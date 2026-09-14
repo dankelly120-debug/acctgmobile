@@ -8,11 +8,14 @@ interface Props {
   practiceNumber?: number;
 }
 const { id, kind, title, links, practiceNumber } = Astro.props;
-const actionOrder: Record<string, number> = { walkthrough: 1, solution: 2, problem: 3, resource: 4 };
+const actionOrder: Record<string, number> = { problem: 1, solution: 2, walkthrough: 3, resource: 4 };
 const orderedLinks = [...links].sort((a, b) => (actionOrder[a.role ?? 'resource'] ?? 4) - (actionOrder[b.role ?? 'resource'] ?? 4));
 const heading = kind === 'practice' ? `Practice ${practiceNumber}` : kind === 'excel' ? 'Excel demonstration' : 'Concept lesson';
+const hasWalkthrough = links.some((link) => link.role === 'walkthrough');
 const description = kind === 'practice'
-  ? 'Download the problem, try it on your own, then use the walkthrough and solution to check your work.'
+  ? hasWalkthrough
+    ? 'Download the problem, try it on your own, then use the solution and walkthrough to check your work.'
+    : 'Download the problem, try it on your own, then use the solution to check your work.'
   : kind === 'excel'
     ? 'Watch this demonstration to see how Excel can be used for the accounting task.'
     : 'Watch this lesson before moving to the related practice problems.';

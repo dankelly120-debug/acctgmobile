@@ -1,8 +1,10 @@
 ---
 import LessonCard from './LessonCard.astro';
-interface Item { title: string; url: string; type: 'video' | 'file' | 'tool'; label?: string; }
+type LessonKind = 'concept' | 'practice' | 'excel';
+type LinkRole = 'problem' | 'solution' | 'walkthrough' | 'resource';
+interface Item { title: string; url: string; type: 'video' | 'file' | 'tool'; label?: string; kind?: LessonKind; role?: LinkRole; lessonTitle?: string; }
 interface Props { number: string; title: string; items: readonly Item[]; }
-interface Link extends Item { role?: 'problem' | 'solution' | 'walkthrough' | 'resource'; }
+interface Link extends Item { role?: LinkRole; }
 interface Lesson { title: string; links: Link[]; }
 const { number, title, items } = Astro.props;
 const anchor = `chapter-${number.replace(/[^a-zA-Z0-9]+/g, '-')}`;
@@ -22,6 +24,15 @@ const cleanTitle = (name: string) => name
 const fileRole = (name: string): Link['role'] => /solution|answer/i.test(name) ? 'solution' : /problem|data|transactions used/i.test(name) ? 'problem' : 'resource';
 
 for (const item of items) {
+  if (item.kind || item.role || item.lessonTitle) {
+    const link: Link = { ...item, role: item.role ?? fileRole(item.title) };
+    const lessonTitle = item.lessonTitle ?? cleanTitle(item.title);
+    const target = item.kind === 'practice' ? practices : item.kind === 'excel' ? excelDemos : concepts;
+    const existing = target.find((lesson) => lesson.title === lessonTitle);
+    if (existing) existing.links.push(link);
+    else target.push({ title: lessonTitle, links: [link] });
+    continue;
+  }
   if (item.type === 'video') {
     if (isExcelVideo(item.title)) {
       excelDemos.push({ title: cleanTitle(item.title), links: [{ ...item }] });

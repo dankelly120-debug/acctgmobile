@@ -1,3 +1,8 @@
+import abc2026ProblemUrl from '../assets/pdfs/acctg121/ch04-activity-based-costing-2026-problem.pdf?url';
+import abc2026SolutionUrl from '../assets/pdfs/acctg121/ch04-activity-based-costing-2026-solution.pdf?url';
+import variableAbsorption2026ProblemUrl from '../assets/pdfs/acctg121/ch05-variable-absorption-costing-2026-problem.pdf?url';
+import variableAbsorption2026SolutionUrl from '../assets/pdfs/acctg121/ch05-variable-absorption-costing-2026-solution.pdf?url';
+
 export const course = {
   "code": "ICC ACCTG 121",
   "name": "Managerial Accounting",
@@ -109,6 +114,30 @@ export const course = {
           "title": "ABC Home/Work Tablet Problem",
           "url": "https://go.screenpal.com/watch/cOjuD1nw6k4",
           "type": "video"
+        },
+        {
+          "title": "2026 ABC Problem",
+          "url": "https://go.screenpal.com/watch/cOQ2qtnwsiG",
+          "type": "video",
+          "kind": "practice",
+          "role": "walkthrough",
+          "lessonTitle": "2026 ABC Problem"
+        },
+        {
+          "title": "2026 ABC Problem Data",
+          "url": abc2026ProblemUrl,
+          "type": "file",
+          "kind": "practice",
+          "role": "problem",
+          "lessonTitle": "2026 ABC Problem"
+        },
+        {
+          "title": "2026 ABC Solution",
+          "url": abc2026SolutionUrl,
+          "type": "file",
+          "kind": "practice",
+          "role": "solution",
+          "lessonTitle": "2026 ABC Problem"
         }
       ]
     },
@@ -132,9 +161,25 @@ export const course = {
           "type": "video"
         },
         {
-          "title": "Variable and Absorption Costing (2022)",
-          "url": "https://youtu.be/B36xvvG3Bz0",
+          "title": "Variable and Absorption Costing (2026)",
+          "url": "https://go.screenpal.com/watch/cOQ2YjnwsIN",
           "type": "video"
+        },
+        {
+          "title": "2026 Variable and Absorption Costing Problem Data",
+          "url": variableAbsorption2026ProblemUrl,
+          "type": "file",
+          "kind": "practice",
+          "role": "problem",
+          "lessonTitle": "2026 Variable and Absorption Costing Problem"
+        },
+        {
+          "title": "2026 Variable and Absorption Costing Solution",
+          "url": variableAbsorption2026SolutionUrl,
+          "type": "file",
+          "kind": "practice",
+          "role": "solution",
+          "lessonTitle": "2026 Variable and Absorption Costing Problem"
         },
         {
           "title": "Starcups Problem",
@@ -175,54 +220,80 @@ export const course = {
       ]
     },
     {
+      "number": "7",
+      "title": "Decision Making",
+      "items": [
+        {
+          "title": "Decision Making Overview",
+          "url": "https://youtu.be/CKerKiHszck",
+          "type": "video"
+        },
+        {
+          "title": "Make or Buy and Constrained Resources",
+          "url": "https://youtu.be/J9koheK5a7E",
+          "type": "video"
+        },
+        {
+          "title": "Constrained Resources",
+          "url": "https://youtu.be/RjXd6lesjHU",
+          "type": "video"
+        },
+        {
+          "title": "Special Orders",
+          "url": "https://youtu.be/elcr6ukRkHs",
+          "type": "video"
+        },
+        {
+          "title": "Keep or Drop",
+          "url": "https://youtu.be/JD5wEvlI5Ow",
+          "type": "video"
+        },
+        {
+          "title": "Sell or Process Further",
+          "url": "https://youtu.be/FTeOxU2xveo",
+          "type": "video"
+        }
+      ]
+    },
+    {
       "number": "8",
       "title": "Budgeting",
       "items": [
         {
           "title": "Budgeting Overview",
-          "url": "https://youtu.be/Qr5dl2OJQ_U",
-          "type": "video"
-        },
-        {
-          "title": "Operations Budget Series Overview",
-          "url": "https://youtu.be/6PueRg666RQ",
+          "url": "https://go.screenpal.com/watch/cOQXcKnw5Lx",
           "type": "video"
         },
         {
           "title": "Sales and Production Budgets",
-          "url": "https://youtu.be/v8c7GaU6lok",
+          "url": "https://go.screenpal.com/watch/cOQlcfnwmr8",
           "type": "video"
         },
         {
           "title": "Direct Materials Budget",
-          "url": "https://youtu.be/N2vMSyTL1no",
+          "url": "https://go.screenpal.com/watch/cOQXcPnw5Nl",
           "type": "video"
         },
         {
           "title": "DL and MOH Budget",
-          "url": "https://youtu.be/YzEaE6F-i5k",
+          "url": "https://go.screenpal.com/watch/cOQXVcnw5Nt",
           "type": "video"
         },
         {
           "title": "Selling/Admin & COGS Budgets and Income Statement",
-          "url": "https://youtu.be/LQi2JC6vBSw",
+          "url": "https://go.screenpal.com/watch/cOQXIinwE8g",
           "type": "video"
         },
         {
           "title": "Cash Receipts and Cash Disbursements",
-          "url": "https://youtu.be/Gn2qt1BxGB0",
+          "url": "https://go.screenpal.com/watch/cOQXIDnwEPJ",
           "type": "video"
         },
         {
           "title": "Cash Budget",
-          "url": "https://youtu.be/w1eXf1gKah0",
+          "url": "https://go.screenpal.com/watch/cOQXIYnwE9f",
           "type": "video"
         },
-        {
-          "title": "Budget problem from old textbook",
-          "url": "https://www.youtube.com/watch?v=WKV1WFvhHlQ",
-          "type": "video"
-        }
       ]
     },
     {
@@ -323,42 +394,6 @@ export const course = {
         {
           "title": "Transfer Pricing problem",
           "url": "https://youtu.be/_JpCFctYQcM",
-          "type": "video"
-        }
-      ]
-    },
-    {
-      "number": "7",
-      "title": "Decision Making",
-      "items": [
-        {
-          "title": "Decision Making Overview",
-          "url": "https://youtu.be/CKerKiHszck",
-          "type": "video"
-        },
-        {
-          "title": "Make or Buy and Constrained Resources",
-          "url": "https://youtu.be/J9koheK5a7E",
-          "type": "video"
-        },
-        {
-          "title": "Constrained Resources",
-          "url": "https://youtu.be/RjXd6lesjHU",
-          "type": "video"
-        },
-        {
-          "title": "Special Orders",
-          "url": "https://youtu.be/elcr6ukRkHs",
-          "type": "video"
-        },
-        {
-          "title": "Keep or Drop",
-          "url": "https://youtu.be/JD5wEvlI5Ow",
-          "type": "video"
-        },
-        {
-          "title": "Sell or Process Further",
-          "url": "https://youtu.be/FTeOxU2xveo",
           "type": "video"
         }
       ]
