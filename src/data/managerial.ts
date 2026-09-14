@@ -163,7 +163,10 @@ export const course = {
                 {
                   "title": "Variable and Absorption Costing (2026)",
                   "url": "https://go.screenpal.com/watch/cOQ2YjnwsIN",
-                  "type": "video"
+                  "type": "video",
+                  "kind": "practice",
+                  "role": "walkthrough",
+                  "lessonTitle": "2026 Variable and Absorption Costing Problem"
                 },
                 {
                   "title": "2026 Variable and Absorption Costing Problem Data",
