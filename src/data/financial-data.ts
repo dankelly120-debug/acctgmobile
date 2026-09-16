@@ -198,12 +198,12 @@ export const course = {
       "items": [
         {
           "title": "Inventory Costing",
-          "url": "https://youtu.be/cle_VyqmOU8",
+          "url": "https://go.screenpal.com/watch/cOQDVHnwNpK",
           "type": "video"
         },
         {
           "title": "Problem: Inventory Costing",
-          "url": "https://youtu.be/CY8s8FD-mAE",
+          "url": "https://go.screenpal.com/watch/cOQDVgnwNpI",
           "type": "video"
         },
         {
@@ -218,7 +218,7 @@ export const course = {
         },
         {
           "title": "Problem: LCM",
-          "url": "https://youtu.be/CKeq0dRMhtI",
+          "url": "https://go.screenpal.com/watch/cOQDVanwNk9",
           "type": "video"
         },
         {
@@ -239,17 +239,17 @@ export const course = {
       "items": [
         {
           "title": "Extending Credit and Accounting for Bad Debts",
-          "url": "https://youtu.be/3WeyVj9XczI",
+          "url": "https://go.screenpal.com/watch/cOQDlgnw8pz",
           "type": "video"
         },
         {
           "title": "Notes Receivable",
-          "url": "https://youtu.be/NLHfwow3_38",
+          "url": "https://go.screenpal.com/watch/cOQDlLnw8Ec",
           "type": "video"
         },
         {
           "title": "Problem: Allowance Method Entries",
-          "url": "https://youtu.be/a5XvufnRAhY",
+          "url": "https://go.screenpal.com/watch/cOQDlPnw8E4",
           "type": "video"
         },
         {
@@ -279,7 +279,7 @@ export const course = {
         },
         {
           "title": "Problem: Notes Rec Interest Accrued Every Quarter",
-          "url": "https://youtu.be/n_zt3DU31U0",
+          "url": "https://go.screenpal.com/watch/cOQDIenw8G3",
           "type": "video"
         },
         {
@@ -300,17 +300,17 @@ export const course = {
       "items": [
         {
           "title": "Long Term Assets and Depreciation",
-          "url": "https://youtu.be/RNySfyaJFNw",
+          "url": "https://go.screenpal.com/watch/cOQDIvnw8dS",
           "type": "video"
         },
         {
           "title": "Other Long Term Asset Topics",
-          "url": "https://youtu.be/VIH80hQ5lCo",
+          "url": "https://go.screenpal.com/watch/cOQDIOnw8dZ",
           "type": "video"
         },
         {
           "title": "Problem: Depreciation",
-          "url": "https://youtu.be/6iulFcvXFeQ",
+          "url": "https://go.screenpal.com/watch/cOQDIrnw8J2",
           "type": "video"
         },
         {
@@ -325,7 +325,7 @@ export const course = {
         },
         {
           "title": "Problem: Disposals",
-          "url": "https://youtu.be/2fJAdFnSvPY",
+          "url": "https://go.screenpal.com/watch/cOQDIFnw8HG",
           "type": "video"
         },
         {
@@ -340,7 +340,7 @@ export const course = {
         },
         {
           "title": "Problem: Changes in Depreciation",
-          "url": "https://youtu.be/AVcihr00CqQ",
+          "url": "https://go.screenpal.com/watch/cOQDIlnw8mK",
           "type": "video"
         },
         {
