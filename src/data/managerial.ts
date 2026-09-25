@@ -2,6 +2,8 @@ import abc2026ProblemUrl from './ch04-activity-based-costing-2026-problem.pdf?ur
 import abc2026SolutionUrl from './ch04-activity-based-costing-2026-solution.pdf?url';
 import variableAbsorption2026ProblemUrl from './ch05-variable-absorption-costing-2026-problem.pdf?url';
 import variableAbsorption2026SolutionUrl from './ch05-variable-absorption-costing-2026-solution.pdf?url';
+import cvpExcelProblemUrl from './ch06-cvp-excel-practice-problem.pdf?url';
+import cvpExcelSolutionUrl from './ch06-cvp-excel-solution.xlsx?url';
 
 export const course = {
   "code": "ICC ACCTG 121",
@@ -211,9 +213,28 @@ export const course = {
                   "type": "video"
                 },
                 {
-                  "title": "CVP in Excel using older book",
-                  "url": "https://www.youtube.com/watch?v=asSD510qL3U&t=15s",
-                  "type": "video"
+                  "title": "CVP in Excel",
+                  "url": "https://go.screenpal.com/watch/cOQTbHnxqMc",
+                  "type": "video",
+                  "kind": "excel",
+                  "role": "walkthrough",
+                  "lessonTitle": "CVP in Excel"
+                },
+                {
+                  "title": "CVP Excel Practice Problem",
+                  "url": cvpExcelProblemUrl,
+                  "type": "file",
+                  "kind": "excel",
+                  "role": "problem",
+                  "lessonTitle": "CVP in Excel"
+                },
+                {
+                  "title": "CVP Excel Solution",
+                  "url": cvpExcelSolutionUrl,
+                  "type": "file",
+                  "kind": "excel",
+                  "role": "solution",
+                  "lessonTitle": "CVP in Excel"
                 },
                 {
                   "title": "Product and Sales Mix problems",
@@ -269,7 +290,7 @@ export const course = {
               "items": [
                 {
                   "title": "Standard Costing & Budget Variances Overview",
-                  "url": "https://youtu.be/DQsqXFliZbg",
+                  "url": "https://go.screenpal.com/watch/cOQbbEnwSU1",
                   "type": "video"
                 },
                 {
@@ -325,12 +346,12 @@ export const course = {
               "items": [
                 {
                   "title": "ROI and Residual Income Overview",
-                  "url": "https://youtu.be/E7cOY3BzmmU",
+                  "url": "https://go.screenpal.com/watch/cOQbbHnwSU4",
                   "type": "video"
                 },
                 {
                   "title": "Transfer Pricing Overview",
-                  "url": "https://youtu.be/xARglHrZqOk",
+                  "url": "https://go.screenpal.com/watch/cOQbbdnwSvh",
                   "type": "video"
                 },
                 {

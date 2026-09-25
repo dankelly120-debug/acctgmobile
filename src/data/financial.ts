@@ -264,7 +264,7 @@ export const course = {
         },
         {
           "title": "Problem: Notes Rec Interest Due at Maturity",
-          "url": "https://youtu.be/V91LSA3eF4A",
+          "url": "https://go.screenpal.com/watch/cOQDI1nw8GJ",
           "type": "video"
         },
         {
