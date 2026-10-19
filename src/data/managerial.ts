@@ -1,3 +1,6 @@
+import beachWindProblemUrl from './ch08-beach-wind-budget-problem.pdf?url';
+import flexBudgetProblemUrl from './ch09-flex-budget-problem-data.pdf?url';
+import flexBudgetSolutionUrl from './ch09-flex-budget-solution.xlsx?url';
 import abc2026ProblemUrl from './ch04-activity-based-costing-2026-problem.pdf?url';
 import abc2026SolutionUrl from './ch04-activity-based-costing-2026-solution.pdf?url';
 import variableAbsorption2026ProblemUrl from './ch05-variable-absorption-costing-2026-problem.pdf?url';
@@ -244,102 +247,36 @@ export const course = {
               ]
             },
     {
-              "number": "8",
-              "title": "Budgeting",
-              "items": [
-                {
-                  "title": "Budgeting Overview",
-                  "url": "https://go.screenpal.com/watch/cOQXcKnw5Lx",
-                  "type": "video"
-                },
-                {
-                  "title": "Sales and Production Budgets",
-                  "url": "https://go.screenpal.com/watch/cOQlcfnwmr8",
-                  "type": "video"
-                },
-                {
-                  "title": "Direct Materials Budget",
-                  "url": "https://go.screenpal.com/watch/cOQXcPnw5Nl",
-                  "type": "video"
-                },
-                {
-                  "title": "DL and MOH Budget",
-                  "url": "https://go.screenpal.com/watch/cOQXVcnw5Nt",
-                  "type": "video"
-                },
-                {
-                  "title": "Selling/Admin & COGS Budgets and Income Statement",
-                  "url": "https://go.screenpal.com/watch/cOQXIinwE8g",
-                  "type": "video"
-                },
-                {
-                  "title": "Cash Receipts and Cash Disbursements",
-                  "url": "https://go.screenpal.com/watch/cOQXIDnwEPJ",
-                  "type": "video"
-                },
-                {
-                  "title": "Cash Budget",
-                  "url": "https://go.screenpal.com/watch/cOQXIYnwE9f",
-                  "type": "video"
-                },
-              ]
-            },
+      "number": "8",
+      "title": "Budgeting",
+      "items": [
+        { "title": "Budgeting Overview", "url": "https://go.screenpal.com/watch/cOQXcKnw5Lx", "type": "video" },
+        { "title": "Sales and Production Budgets", "url": "https://go.screenpal.com/watch/cOQlcfnwmr8", "type": "video", "kind": "concept", "role": "walkthrough", "lessonTitle": "Sales and Production Budgets" },
+        { "title": "Beach Wind Company Budget Problem Data (PDF)", "url": beachWindProblemUrl, "type": "file", "kind": "concept", "role": "problem", "lessonTitle": "Sales and Production Budgets" },
+        { "title": "Direct Materials Budget", "url": "https://go.screenpal.com/watch/cOQXcPnw5Nl", "type": "video" },
+        { "title": "DL and MOH Budget", "url": "https://go.screenpal.com/watch/cOQXVcnw5Nt", "type": "video" },
+        { "title": "Selling/Admin & COGS Budgets and Income Statement", "url": "https://go.screenpal.com/watch/cOQXIinwE8g", "type": "video" },
+        { "title": "Cash Receipts and Cash Disbursements", "url": "https://go.screenpal.com/watch/cOQXIDnwEPJ", "type": "video" },
+        { "title": "Cash Budget", "url": "https://go.screenpal.com/watch/cOQXIYnwE9f", "type": "video" }
+      ]
+    },
     {
-              "number": "9",
-              "title": "Standard Costs and Variances",
-              "items": [
-                {
-                  "title": "Standard Costing & Budget Variances Overview",
-                  "url": "https://go.screenpal.com/watch/cOQbbEnwSU1",
-                  "type": "video"
-                },
-                {
-                  "title": "DM, DL, and Variable MOH Budget Variances — Additional Example",
-                  "url": "https://youtu.be/MhbOF-DJ5YQ",
-                  "type": "video"
-                },
-                {
-                  "title": "DM DL VMOH Budget Variances",
-                  "url": "https://youtu.be/8ug2p8ovbbM",
-                  "type": "video"
-                },
-                {
-                  "title": "Problem Data",
-                  "url": "https://drive.google.com/file/d/19S1u40VEr-eVJcJf_b7uGwoXN73V7gN6/view?usp=sharing",
-                  "type": "file"
-                },
-                {
-                  "title": "DM DL Var MOH solution",
-                  "url": "https://drive.google.com/file/d/1AVk5CBiJmdTEW0X3otKWX9tbgn0IK7Ym/view?usp=sharing",
-                  "type": "file"
-                },
-                {
-                  "title": "DM DL VMOH Budget Variances (Problem Data) (DM DL Var MOH solution",
-                  "url": "https://drive.google.com/file/d/1QbZmTOIQ_3lir10K2SpoJIOUq7Utx5VA/view?usp=sharing",
-                  "type": "file"
-                },
-                {
-                  "title": "Fixed MOH Budget Variances",
-                  "url": "https://youtu.be/Zvba7Vi_bb0",
-                  "type": "video"
-                },
-                {
-                  "title": "Fixed MOH solution",
-                  "url": "https://drive.google.com/file/d/1QbZmTOIQ_3lir10K2SpoJIOUq7Utx5VA/view?usp=sharing",
-                  "type": "file"
-                },
-                {
-                  "title": "Budget Variance Problem with Excel Focus",
-                  "url": "https://youtu.be/nnIJ0ERifXA",
-                  "type": "video"
-                },
-                {
-                  "title": "Problem from old textbook where materials used/purchased differ",
-                  "url": "https://www.youtube.com/watch?v=jXUn36_kPAU",
-                  "type": "video"
-                }
-              ]
-            },
+      "number": "9",
+      "title": "Standard Costs and Variances",
+      "items": [
+        { "title": "Standard Costing & Budget Variances Overview", "url": "https://go.screenpal.com/watch/cOQbbEnwSU1", "type": "video" },
+        { "title": "DM DL VMOH Budget Variances", "url": "https://go.screenpal.com/watch/cO6Fq6nyDPP", "type": "video" },
+        { "title": "Fixed MOH Budget Variances", "url": "https://go.screenpal.com/watch/cO6FqYnyDRb", "type": "video" },
+        { "title": "Flex Budget and Budget Variances #1 – Flex Budget", "url": "https://go.screenpal.com/watch/cO6FrfnybXO", "type": "video", "kind": "concept", "role": "walkthrough", "lessonTitle": "Flex Budget and Budget Variances #1 – Flex Budget" },
+        { "title": "Rip Tide Company Problem Data (PDF)", "url": flexBudgetProblemUrl, "type": "file", "kind": "concept", "role": "problem", "lessonTitle": "Flex Budget and Budget Variances #1 – Flex Budget" },
+        { "title": "Rip Tide Company Excel Solution", "url": flexBudgetSolutionUrl, "type": "file", "kind": "concept", "role": "solution", "lessonTitle": "Flex Budget and Budget Variances #1 – Flex Budget" },
+        { "title": "Flex Budget and Budget Variances #2 – DM, DL, VMOH Budget Variances", "url": "https://go.screenpal.com/watch/cO6FrznyboV", "type": "video" },
+        { "title": "Flex Budget and Budget Variances #3 – Fixed MOH Budget Variances", "url": "https://go.screenpal.com/watch/cO6Fr5nybod", "type": "video" },
+        { "title": "DM DL VMOH Budget Variances — Existing Problem Data", "url": "https://drive.google.com/file/d/19S1u40VEr-eVJcJf_b7uGwoXN73V7gN6/view?usp=sharing", "type": "file", "kind": "practice", "role": "problem", "lessonTitle": "Existing Variance Practice Resources" },
+        { "title": "DM DL VMOH Budget Variances — Existing Solution", "url": "https://drive.google.com/file/d/1AVk5CBiJmdTEW0X3otKWX9tbgn0IK7Ym/view?usp=sharing", "type": "file", "kind": "practice", "role": "solution", "lessonTitle": "Existing Variance Practice Resources" },
+        { "title": "Fixed MOH Existing Solution", "url": "https://drive.google.com/file/d/1QbZmTOIQ_3lir10K2SpoJIOUq7Utx5VA/view?usp=sharing", "type": "file", "kind": "practice", "role": "solution", "lessonTitle": "Existing Variance Practice Resources" }
+      ]
+    },
     {
               "number": "10",
               "title": "Responsibility Accounting",
