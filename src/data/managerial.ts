@@ -290,7 +290,12 @@ export const course = {
                 },
                 {
                   "title": "ROI and Residual Income Problem",
-                  "url": "https://youtu.be/VnpvvC3i5H0",
+                  "url": "https://go.screenpal.com/watch/cO6OcenyamO",
+                  "type": "video"
+                },
+                {
+                  "title": "Multidivision ROI and Residual Income Problem",
+                  "url": "https://go.screenpal.com/watch/cO6tqInypIH",
                   "type": "video"
                 },
                 {
@@ -304,18 +309,8 @@ export const course = {
                   "type": "file"
                 },
                 {
-                  "title": "ROI and Residual Income Problem from old textbook",
-                  "url": "https://youtu.be/n2rEgn-wXYs",
-                  "type": "video"
-                },
-                {
-                  "title": "Multidivision ROI and Residual Income Problem",
-                  "url": "https://youtu.be/9maGDieV3qQ",
-                  "type": "video"
-                },
-                {
                   "title": "Transfer Pricing problem",
-                  "url": "https://youtu.be/_JpCFctYQcM",
+                  "url": "https://go.screenpal.com/watch/cO6OcQnyaHO",
                   "type": "video"
                 }
               ]
@@ -326,7 +321,7 @@ export const course = {
               "items": [
                 {
                   "title": "Decision Making Overview",
-                  "url": "https://youtu.be/CKerKiHszck",
+                  "url": "https://go.screenpal.com/watch/cO6T0PnyaGt",
                   "type": "video"
                 },
                 {
@@ -341,12 +336,12 @@ export const course = {
                 },
                 {
                   "title": "Special Orders",
-                  "url": "https://youtu.be/elcr6ukRkHs",
+                  "url": "https://go.screenpal.com/watch/cO6OcMnyaNd",
                   "type": "video"
                 },
                 {
                   "title": "Keep or Drop",
-                  "url": "https://youtu.be/JD5wEvlI5Ow",
+                  "url": "https://go.screenpal.com/watch/cO6OcNnya8n",
                   "type": "video"
                 },
                 {
