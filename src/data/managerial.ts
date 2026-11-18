@@ -1,3 +1,5 @@
+import makeOrBuyProblemUrl from './ch07-irish-manufacturing-make-or-buy-problem.docx?url';
+import makeOrBuySolutionUrl from './ch07-irish-manufacturing-make-or-buy-solution.pdf?url';
 import beachWindProblemUrl from './ch08-beach-wind-budget-problem.pdf?url';
 import flexBudgetProblemUrl from './ch09-flex-budget-problem-data.pdf?url';
 import flexBudgetSolutionUrl from './ch09-flex-budget-solution.xlsx?url';
@@ -326,8 +328,26 @@ export const course = {
                 },
                 {
                   "title": "Make or Buy and Constrained Resources",
-                  "url": "https://youtu.be/J9koheK5a7E",
-                  "type": "video"
+                  "url": "https://go.screenpal.com/watch/cOXFqKn44cY",
+                  "type": "video",
+                  "kind": "practice",
+                  "role": "walkthrough"
+                },
+                {
+                  "title": "Problem Data",
+                  "url": makeOrBuyProblemUrl,
+                  "type": "file",
+                  "kind": "practice",
+                  "role": "problem",
+                  "lessonTitle": "Make or Buy and Constrained Resources"
+                },
+                {
+                  "title": "Solution",
+                  "url": makeOrBuySolutionUrl,
+                  "type": "file",
+                  "kind": "practice",
+                  "role": "solution",
+                  "lessonTitle": "Make or Buy and Constrained Resources"
                 },
                 {
                   "title": "Constrained Resources",
